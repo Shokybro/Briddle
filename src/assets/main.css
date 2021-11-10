@@ -71,7 +71,10 @@ body {
         width: 30rem;
     }
 }
-
+.header-btn {
+    padding: 1rem;
+    font-size: 2rem;
+}
 /* info section */
 .info {
     width: 100%;

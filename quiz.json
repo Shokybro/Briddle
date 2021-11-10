@@ -4,13 +4,5 @@
         "medium": "Medium",
         "easy": "Easy"
     },
-    "algabra1": {
-        "title": "Algabra 1",
-        "q1": {
-            "q": "This year, a salesman sells a total of $60,000 worth of steak knives by going door-to-door. This represents a 20% increase from the year before. What was the value of his sales last year?",
-            "a1": "500k"
-        },
-        "q2": "Solve the equation for x. x/3 = (2x + 3)/7",
-        "q3": "Solve the equation for y. 3(2y + 4) = 8y"
-    }
+    "tests": ["algabra", "cells"]
 }
