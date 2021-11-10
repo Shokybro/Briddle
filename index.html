@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/assets/main.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">testQ</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Brows test</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Top 50</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/aboutUs.html">About us</a>
+              </li>
+            </ul>
+            <a href="#" class="text-decoration-none text-dark test-btn d-none" id="add-test-btn">Add test</a>
+            <!-- <p class="nav-item"><a href="#" class="nav-a"></a></p> -->
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+      <div class="nav-space"></div>
+
+      <header class="header">
+          <div class="header-info">
+            <h1 class="header--title" id="header-title">Test your knowledge</h1>
+            <form id="form">
+              <input type="text" placeholder="search test" class="header--input">
+            </form>
+          </div>
+      </header>
+
+      <section class="info">
+        <div class="info__panel-left info-panel">
+            <h1 class="info--title text-dark" id="info-title">Just reading and learning is not <span class="text-primary">enaugh</span></h1>
+            <p class="info--information" id="info-text">You also have to challenge yourself and testQ is the best option for you. We give you the best test to test your knowledge</p>
+        </div>
+        <div class="info__panel-right info-panel">
+            <img src="https://firebasestorage.googleapis.com/v0/b/rate-my-dorm.appspot.com/o/laptop.png?alt=media&amp;token=5f1bae1d-b717-4f32-9c6e-ec7b045c45a7" alt="Laptop" class="info--img" id="info-img">
+        </div>
+      </section>
+      
+      <section class="quote">
+        <div class="quote--collection">
+          <div class="quotes">
+            <h1 class="quote--text"><q>The man of knowledge must be able not only to love his enemies but also to hate his friends</q></h1>
+          </div>
+          <div class="quotes">
+            <h1 class="quote--text"><q>The man who asks a question is a fool for a minute, the man who does not ask is a fool for life—Confucius</q></h1>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer bg-dark mt-5">
+        <h1 class="text-white footer-brand-name">testQ</h1>
+        <p class="text-white footer-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis commodi cum ut quos mollitia magni! Corrupti consequuntur repudiandae, ipsum doloribus officia dicta labore possimus, unde delectus fugiat placeat neque qui eveniet ut nulla autem fuga natus accusantium pariatur dolorum libero iusto, voluptates fugit? Non cum dolor dicta iusto aliquid!</p>
+        <form id="admin-form">
+          <input type="text" placeholder="Admin key" class="admin-key-input" id="admin-key" autocomplete="off">
+        </form>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./build/app.js"></script>
+</body>
+</html>
